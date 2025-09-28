@@ -1,5 +1,11 @@
 public class App {
+
+    public static final String FondoAzul = "\u001B[44m";
+    public static final String reinicio = "\033[0m"; 
+    
     public static void main(String[] args) throws Exception {
+        System.out.println(FondoAzul+"                                                                             "+reinicio);
+        System.out.println();
         System.out.println("Rojo Polo Paella Inc.");
         System.out.println("");
         System.out.println("Caretera mulle 33");
